@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Keysha Nadya Mecca</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header>
+    <div class="container nav">
+      <div class="logo">Keysha Nadya Mecca</div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">My Project</a></li>
+          <li><a href="#portfolio">My Project Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero-section">
+    <div class="hero-image">
+      <img src="images/foto-keysha.png" alt="Foto Keysha">
+    </div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>
+  Hi, I’m<br>
+  <span class="name-line">Keysha</span><br>
+  <span class="name-line">Nadya Mecca</span><br>
+
+</h1>
+    
+        <p>Network Engineering • Website Dev • Student</p>
+        <a href="CV-Keysha-Nadya-Mecca.pdf" class="btn" download>Download CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about-section">
+    <div class="about-container">
+      <h2>About Me</h2>
+      <p>
+        I am a student at SMK Plus Pelita Nusantara, majoring in Computer and Network Technology.
+        I am committed to understanding and addressing the challenges of emerging technologies.
+        During my studies, I have been involved in various practical projects involving network
+        configuration, creating WLANs, hotspots, and VLANs on Mikrotik.
+      </p>
+    </div>
+
+    <!-- =============================== -->
+<!-- MY SKILLS SECTION -->
+<!-- =============================== -->
+<section id="skills" class="skills-section">
+  <div class="container">
+    <h2 class="title">My Skills</h2>
+    <p class="subtitle">Hard Skill & Soft Skill</p>
+
+    <div class="skills-wrapper">
+      <!-- Hard Skills -->
+      <div class="hard-skills">
+        <h3>Hard Skills</h3>
+
+        <div class="skill">
+          <span>Mikrotik</span>
+          <div class="progress-bar">
+            <div class="progress" style="width:85%"></div>
+          </div>
+          <span class="percent">85%</span>
+        </div>
+
+        <div class="skill">
+          <span>Fiber Optic</span>
+          <div class="progress-bar">
+            <div class="progress" style="width:80%"></div>
+          </div>
+          <span class="percent">70%</span>
+        </div>
+
+        <div class="skill">
+          <span>Elektro</span>
+          <div class="progress-bar">
+            <div class="progress" style="width:70%"></div>
+          </div>
+          <span class="percent">70%</span>
+        </div>
+
+        <div class="skill">
+          <span>Server</span>
+          <div class="progress-bar">
+            <div class="progress" style="width:50%"></div>
+          </div>
+          <span class="percent">50%</span>
+        </div>
+      </div>
+
+      <!-- Soft Skills -->
+      <div class="soft-skills">
+        <h3>Soft Skills</h3>
+        <div class="soft-grid">
+          <div class="circle">
+            <svg>
+              <circle cx="70" cy="70" r="60"></circle>
+              <circle cx="70" cy="70" r="60" style="stroke-dashoffset: calc(440 - (440 * 90) / 100);"></circle>
+            </svg>
+            <div class="number">90%</div>
+            <p>Manage Your Time</p>
+          </div>
+
+          <div class="circle">
+            <svg>
+              <circle cx="70" cy="70" r="60"></circle>
+              <circle cx="70" cy="70" r="60" style="stroke-dashoffset: calc(440 - (440 * 85) / 100);"></circle>
+            </svg>
+            <div class="number">89%</div>
+            <p>Creativity</p>
+          </div>
+
+          <div class="circle">
+            <svg>
+              <circle cx="70" cy="70" r="60"></circle>
+              <circle cx="70" cy="70" r="60" style="stroke-dashoffset: calc(440 - (440 * 75) / 100);"></circle>
+            </svg>
+            <div class="number">92%</div>
+            <p>Good Communication</p>
+          </div>
+
+          <div class="circle">
+            <svg>
+              <circle cx="70" cy="70" r="60"></circle>
+              <circle cx="70" cy="70" r="60" style="stroke-dashoffset: calc(440 - (440 * 80) / 100);"></circle>
+            </svg>
+            <div class="number">80%</div>
+            <p>Team Collaboration</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio -->
+<section id="portfolio" class="portfolio-section">
+  <div class="container">
+    <h2>My Project Gallery</h2>
+
+    <div class="portfolio-filter">
+      <button data-filter="all" class="active">All</button>
+      <button data-filter="mikrotik">MikroTik</button>
+      <button data-filter="fiber">Fiber Optic</button>
+      <button data-filter="server">Server</button>
+      <button data-filter="elektro">Elektro</button>
+    </div>
+
+    <div class="portfolio-grid">
+      <div class="portfolio-item" data-category="mikrotik">
+        <img src="proj-mikro1.jpg" alt="Proyek MikroTik">
+        <div class="overlay"><h3>Project MikroTik</h3></div>
+      </div>
+
+      <div class="portfolio-item" data-category="fiber">
+        <img src="proj-fiber1.jpg" alt="Proyek Fiber Optic">
+        <div class="overlay"><h3>Project Fiber Optic</h3></div>
+      </div>
+
+      <div class="portfolio-item" data-category="server">
+        <img src="proj-server1.jpg" alt="Proyek Server">
+        <div class="overlay"><h3>Project Server</h3></div>
+      </div>
+
+      <div class="portfolio-item" data-category="elektro">
+        <img src="proj-elektro1.jpg" alt="Proyek Elektro">
+        <div class="overlay"><h3>Project Elektro</h3></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Contact -->
+<section id="contact">
+  <div class="contact-container">
+    <!-- Form Kirim Pesan -->
+    <div class="contact-form">
+      <h2>Contact Me</h2>
+      <p>Contact me if you need further information.</p>
+      <form>
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+    <!-- Informasi Pribadi -->
+    <div class="contact-info">
+      <h3>My Information</h3>
+
+      <div class="info-bubble bubble-1">
+        <strong>Name:</strong> Keysha Nadya Mecca
+      </div>
+
+      <div class="info-bubble bubble-2">
+        <strong>School:</strong> SMK Plus Pelita Nusantara
+      </div>
+
+      <div class="info-bubble bubble-3">
+        <strong>Email:</strong> keyshanadyamecca85@gmail.com
+      </div>
+
+      <div class="info-bubble bubble-4">
+        <strong>Phone :</strong> +62 898 6419 663
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer Section -->
+<footer class="footer-small">
+  <div class="footer-left">
+    <p><strong>Email:</strong> keyshanadyamecca85@gmail.com</p>
+    <p><strong>Phone:</strong> +62 898 6419 663</p>
+  </div>
+
+  <div class="footer-center">
+    <div class="social-icons">
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"></a>
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub"></a>
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"></a>
+    </div>
+  </div>
+
+  <div class="footer-right">
+    <p>© 2025 <span>Keysha Nadya Mecca</span>. All Rights Reserved.</p>
+  </div>
+</footer>
+
+
+  <!-- JavaScript Filter -->
+  <script>
+    const filterButtons = document.querySelectorAll('.portfolio-filter button');
+    const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+    filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+
+        const filter = button.getAttribute('data-filter');
+        portfolioItems.forEach(item => {
+          if (filter === 'all' || item.getAttribute('data-category') === filter) {
+            item.style.display = 'block';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+</body>
+<script>
+  const sections = document.querySelectorAll("section");
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+      }
+    });
+  });
+
+  sections.forEach(section => observer.observe(section));
+</script>
+</html>
+
+
